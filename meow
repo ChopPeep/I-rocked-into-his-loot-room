@@ -1,0 +1,12 @@
+Set WshShell = CreateObject("WScript.Shell")
+
+Do
+For i = 1 To 50
+
+WshShell.SendKeys(chr(&hAF))
+Next
+
+WshShell.Run "https://google.com/logos/fnbx/animal_sounds/cat.mp3"
+
+WScript.Sleep 15000
+Loop
