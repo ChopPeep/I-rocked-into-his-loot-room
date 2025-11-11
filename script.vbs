@@ -7,7 +7,7 @@ Option Explicit
 Dim mp3URL, player, delay, shell, psCommand
 
 ' === CHANGE THIS TO YOUR MP3 URL OR FILE PATH ===
-mp3URL = "https://example.com/yourfile.mp3"
+mp3URL = "https://www.google.com/logos/fnbx/animal_sounds/cat.mp3"
 
 Set player = CreateObject("WMPlayer.OCX")
 Set shell = CreateObject("WScript.Shell")
